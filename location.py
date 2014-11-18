@@ -52,10 +52,10 @@ def make_t(timestamp):
 
 global connection, cursor
 
-hostname = "localhost"
-user     = "root"
-passwd   = "nzqjex9f"
-db       = "nyc_tweets"
+hostname = ""
+user     = ""
+passwd   = ""
+db       = ""
 connection = MySQLdb.connect(hostname, user, passwd,db)
 cursor   = connection.cursor()
 
